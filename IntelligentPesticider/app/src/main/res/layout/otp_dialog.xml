@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:layout_margin="0dp"
+    android:gravity="center"
+    android:background="@drawable/otp_dialog_gb"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Enter Verification Code"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/otp1"
+            android:maxLength="1"
+            android:inputType="numberPassword"
+            android:background="@drawable/otp_box_bg"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="50dp"
+            android:layout_height="55dp" />
+
+        <EditText
+            android:id="@+id/otp2"
+            android:maxLength="1"
+            android:inputType="numberPassword"
+            android:background="@drawable/otp_box_bg"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp" />
+
+        <EditText
+            android:id="@+id/otp3"
+            android:maxLength="1"
+            android:inputType="numberPassword"
+            android:background="@drawable/otp_box_bg"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp" />
+
+        <EditText
+            android:id="@+id/otp4"
+            android:maxLength="1"
+            android:inputType="numberPassword"
+            android:background="@drawable/otp_box_bg"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp" />
+
+        <EditText
+            android:id="@+id/otp5"
+            android:maxLength="1"
+            android:inputType="numberPassword"
+            android:background="@drawable/otp_box_bg"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp" />
+
+        <EditText
+            android:id="@+id/otp6"
+            android:maxLength="1"
+            android:inputType="numberPassword"
+            android:background="@drawable/otp_box_bg"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+</LinearLayout>

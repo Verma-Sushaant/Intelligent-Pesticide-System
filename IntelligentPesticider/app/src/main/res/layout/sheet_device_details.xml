@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Top bar -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_close"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/btnMenu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_more_vert"
+            android:background="@null"/>
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal">
+
+        <include android:id="@+id/cardTemp"
+            layout="@layout/card_gauge"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:layout_margin="12dp" />
+        <include android:id="@+id/cardHumidity"
+            layout="@layout/card_gauge"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:layout_margin="12dp"/>
+        <include android:id="@+id/cardSoil"
+            layout="@layout/card_gauge"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:layout_margin="12dp"/>
+        <include android:id="@+id/cardInfection"
+            layout="@layout/card_gauge"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:layout_margin="12dp"/>
+
+    </GridLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtLastSprayed"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:text="Last sprayed: Never"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSpray"
+        android:layout_marginTop="16dp"
+        android:text="Spray Pesticide"
+        android:layout_marginStart="225dp"/>
+
+</LinearLayout>

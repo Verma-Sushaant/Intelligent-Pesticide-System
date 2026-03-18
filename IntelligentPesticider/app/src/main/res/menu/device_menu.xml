@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_monitor"
+        android:title="Start / Stop Monitoring"/>
+
+    <item android:id="@+id/action_reset"
+        android:title="Reset Device"
+        android:icon="@drawable/reset"/>
+
+    <item android:id="@+id/action_autocapture"
+        android:title="Auto Capture"
+        android:icon="@drawable/lock"/>
+
+    <item android:id="@+id/action_delete"
+        android:title="Delete Device"
+        android:icon="@drawable/delete"/>
+</menu>

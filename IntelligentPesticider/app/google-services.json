@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "685054573304",
+    "firebase_url": "https://intelligent-pesticide-system-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "intelligent-pesticide-system",
+    "storage_bucket": "intelligent-pesticide-system.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685054573304:android:5469e1c1ec9c7571f6590d",
+        "android_client_info": {
+          "package_name": "com.sushaant.intelligentpesticider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685054573304-m3rkggosgod556hi809p6kjj4thkfgpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sushaant.intelligentpesticider",
+            "certificate_hash": "13e04f379906bba35c71b6dd9843bd6a3bf4fb3c"
+          }
+        },
+        {
+          "client_id": "685054573304-g02uo05vj91bud3u1s0oda5isg0v8csb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxF0LWrko29uBF0QgZy4NmHoYr-qyf3I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685054573304-g02uo05vj91bud3u1s0oda5isg0v8csb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

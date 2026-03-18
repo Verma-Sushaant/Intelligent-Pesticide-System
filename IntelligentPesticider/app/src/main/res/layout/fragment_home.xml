@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.HomeFragment">
+
+    <!-- The RecyclerView for your device tiles -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/deviceRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        tools:listitem="@layout/devices" />
+
+    <!-- A message to show when the list is empty -->
+    <TextView
+        android:id="@+id/txtNoDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No devices found.\n\t\tTap '+' to add."
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        tools:visibility="visible"/>
+
+    <!-- The Floating Action Button for adding new devices -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="35dp"
+        android:src="@drawable/add"
+        android:contentDescription="Add Device"
+        app:backgroundTint="@color/colorPrimary"
+        app:tint="@color/white"
+        app:maxImageSize="40dp"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
